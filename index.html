@@ -4,48 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SomeHelp - Recursos Gratuitos en Estados Unidos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Montserrat', sans-serif;
             background-color: #f0f0f0;
             color: #333;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #3c3b6e;
+            background-image: url('https://via.placeholder.com/1500x500'); /* Cambia por una imagen real */
+            background-size: cover;
+            background-position: center;
             color: white;
-            padding: 20px;
+            padding: 100px 20px;
             text-align: center;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
         }
         nav {
             background-color: #ff0000;
             color: white;
             padding: 10px;
             text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
         }
         nav a {
             color: white;
             margin: 0 15px;
             text-decoration: none;
+            font-weight: bold;
         }
         main {
             padding: 20px;
+        }
+        section {
+            margin: 50px 0;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        section p {
+            font-size: 1.2em;
+            line-height: 1.6;
         }
         footer {
             background-color: #3c3b6e;
             color: white;
             text-align: center;
-            padding: 10px;
-            position: fixed;
+            padding: 20px;
+            position: relative;
             width: 100%;
             bottom: 0;
+            margin-top: 50px;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>SomeHelp - Recursos Gratuitos en Estados Unidos</h1>
+        <h1>SomeHelp - Encuentra Ayuda Gratis en EE.UU.</h1>
     </header>
     <nav>
         <a href="#california">California</a>
@@ -57,23 +84,33 @@
     <main>
         <section id="california">
             <h2>Recursos en California</h2>
-            <p>Enlaces a recursos gratuitos específicos de California.</p>
+            <p><a href="https://www.courts.ca.gov/selfhelp.htm">Ayuda Legal</a></p>
+            <p><a href="https://www.dhcs.ca.gov/services/Pages/MentalHealthPrograms-Svcs.aspx">Salud Mental</a></p>
+            <p><a href="https://www.cdph.ca.gov/Programs/CHSI/Pages/LocalHealthServicesAndOffices.aspx">Acceso a la Salud</a></p>
         </section>
         <section id="texas">
             <h2>Recursos en Texas</h2>
-            <p>Enlaces a recursos gratuitos específicos de Texas.</p>
+            <p><a href="https://www.texasattorneygeneral.gov/child-support">Ayuda Legal</a></p>
+            <p><a href="https://www.hhs.texas.gov/services/mental-health-substance-use">Salud Mental</a></p>
+            <p><a href="https://www.dshs.texas.gov/coronavirus/">Acceso a la Salud</a></p>
         </section>
         <section id="florida">
             <h2>Recursos en Florida</h2>
-            <p>Enlaces a recursos gratuitos específicos de Florida.</p>
+            <p><a href="https://www.floridalegal.org/">Ayuda Legal</a></p>
+            <p><a href="https://www.myflfamilies.com/service-programs/mental-health/">Salud Mental</a></p>
+            <p><a href="http://www.floridahealth.gov/">Acceso a la Salud</a></p>
         </section>
         <section id="new-york">
             <h2>Recursos en Nueva York</h2>
-            <p>Enlaces a recursos gratuitos específicos de Nueva York.</p>
+            <p><a href="https://www.nycourts.gov/courthelp/">Ayuda Legal</a></p>
+            <p><a href="https://omh.ny.gov/">Salud Mental</a></p>
+            <p><a href="https://www.health.ny.gov/">Acceso a la Salud</a></p>
         </section>
         <section id="new-jersey">
             <h2>Recursos en New Jersey</h2>
-            <p>Enlaces a recursos gratuitos específicos de New Jersey.</p>
+            <p><a href="https://www.njcourts.gov/selfhelp/index.html">Ayuda Legal</a></p>
+            <p><a href="https://www.nj.gov/humanservices/dmhas/home/">Salud Mental</a></p>
+            <p><a href="https://www.nj.gov/health/">Acceso a la Salud</a></p>
         </section>
     </main>
     <footer>
@@ -81,3 +118,4 @@
     </footer>
 </body>
 </html>
+
